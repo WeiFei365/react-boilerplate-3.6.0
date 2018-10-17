@@ -52,6 +52,20 @@ module.exports = require('./webpack.base.babel')({
     chunkFilename: '[name].chunk.js',
   },
 
+  cssLoaders: [
+    'style-loader',
+    {
+      loader: 'css-loader',
+      options: {
+        camelCase: true,
+        modules: true,
+        importLoaders: 1,
+        sourceMap: true,
+        localIdentName: '[local]__[path][name]__[hash:base64:5]',
+      },
+    },
+  ],
+
   optimization: {
     minimize: false,
   },
