@@ -49,12 +49,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "npm run lint:eslint:fix",
-      "git add --force"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add --force"
+      "npm run lint:eslint"
     ]
   },
   "keywords": [
