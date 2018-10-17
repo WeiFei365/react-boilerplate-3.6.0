@@ -2,21 +2,20 @@
   "name": "react-boilerplate-3.6.0",
   "version": "3.6.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WeiFei365/react-boilerplate-3.6.0.git"
+  },
+  "author": "WEI FEI",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react-boilerplate",
     "react",
     "antd"
   ],
-  "author": "WEI FEI",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/WeiFei365/react-boilerplate-3.6.0/issues"
   },
