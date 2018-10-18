@@ -1,3 +1,16 @@
+## 修改已暂停，说明：
+
+新版更新的许多依赖都不能正常工作，比如：
+
+  * lint-staged 在 pre-commit 的处理时一直会报错：lint-staged requires at least version 6 of Node, please upgrade，无论本地的 node 版本是 v8、v10，都会出现这个问题，并且官方也一直未解决该问题：https://github.com/okonet/lint-staged/issues/432
+
+  * style-loader 因为其在特定的一些情况时会报错：Aborting CSS HMR due to changed css-modules locals，而官方一直未解决：https://github.com/webpack-contrib/style-loader/issues/320
+
+  * 其他未发现的
+
+因此，决定跳过 react-boilerplate@3.6.0 的使用，等待下次更新！
+
+
 <img src="https://raw.githubusercontent.com/react-boilerplate/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
 
 <br />
